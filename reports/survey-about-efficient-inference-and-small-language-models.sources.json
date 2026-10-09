@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2025.ranlp-1.93",
+    "url": "https://aclanthology.org/2025.ranlp-1.93.pdf",
+    "title": "A Survey on Small Language Models",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2410.01243",
+    "url": "https://ar5iv.labs.arxiv.org/html/2410.01243",
+    "title": "An Information Theory of Compute-Optimal Size Scaling, Emergence, and Plateaus in Language Models",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "Not provided",
+    "url": "https://openreview.net/pdf?id=PtgfcMcQd5",
+    "title": "SCALING, EMERGENCE, AND PLATEAUS IN LANGUAGE MODELS",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "Not provided",
+    "url": "https://papers.nips.cc/paper_files/paper/2024/file/9740da1c07c7b451af14e11523f95271-Paper-Conference.pdf",
+    "title": "Towards a theory of how the structure of language is acquired by deep neural networks",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "Not provided",
+    "url": "https://arxiv.org/html/2602.07488v1",
+    "title": "Deriving Neural Scaling Laws from the Statistics of Natural Language",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "N/A",
+    "url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.645.pdf",
+    "title": "Revisiting Pruning vs Quantization for Small Language Models",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "N/A",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3816440.3818524",
+    "title": "QMC: Efficient SLM Edge Inference via Outlier-Aware Quantization and Emergent Memories Co-Design",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "N/A",
+    "url": "https://www.ijcai.org/proceedings/2026/0631.pdf",
+    "title": "Interaction Effects in Hybrid Compression of Small Language Models",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2412.11629",
+    "url": "https://huggingface.co/papers/2412.11629",
+    "title": "QPruner: Probabilistic Decision Quantization for Structured Pruning in Large Language Models",
+    "date": "2024-12-16",
+    "source": "hf-daily"
+  },
+  {
+    "n": 10,
+    "id": "2506.10205",
+    "url": "https://huggingface.co/papers/2506.10205",
+    "title": "AWP: Activation-Aware Weight Pruning and Quantization with Projected Gradient Descent",
+    "date": "2025-06-11",
+    "source": "hf-daily"
+  },
+  {
+    "n": 11,
+    "id": "2402.09748",
+    "url": "https://huggingface.co/papers/2402.09748",
+    "title": "Model Compression and Efficient Inference for Large Language Models: A Survey",
+    "date": "2024-02-15",
+    "source": "hf-daily"
+  }
+]

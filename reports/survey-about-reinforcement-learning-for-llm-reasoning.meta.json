@@ -1,0 +1,25 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "gpt-4o-mini",
+  "elapsed_s": 915.9,
+  "subagent_calls": 8,
+  "tool_calls": {
+    "write_todos": 3,
+    "write_file": 35,
+    "task": 8,
+    "execute": 58,
+    "edit_file": 35,
+    "read_file": 17
+  },
+  "tokens": {
+    "input": 7537547,
+    "output": 53064
+  },
+  "n_sources": 19,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

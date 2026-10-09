@@ -1,0 +1,66 @@
+[
+  {
+    "n": 1,
+    "id": "2507.21513",
+    "url": "https://arxiv.org/html/2507.21513",
+    "title": "What Does it Mean for a Neural Network to Learn a “World Model”?",
+    "date": "2025-07-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2511.02091",
+    "url": "https://arxiv.org/html/2511.02091",
+    "title": "Natural Building Blocks for Structured World Models: Theory, Evidence, and Scaling",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2602.18690",
+    "url": "https://huggingface.co/papers/2602.18690",
+    "title": "Neural Fields as World Models",
+    "date": "2026-02-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2603.28489",
+    "url": "https://huggingface.co/papers/2603.28489",
+    "title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
+    "date": "2026-03-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2605.00080",
+    "url": "https://arxiv.org/html/2605.00080",
+    "title": "World Model for Robot Learning: A Comprehensive Survey",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2301.05832",
+    "url": "https://arxiv.org/abs/2301.05832",
+    "title": "World Models and Predictive Coding for Cognitive and Developmental Robotics: Frontiers and Challenges",
+    "date": "2023-01-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2509.07996",
+    "url": "https://huggingface.co/papers/2509.07996",
+    "title": "3D and 4D World Modeling: A Survey",
+    "date": "2025-09-04",
+    "source": "hf-daily"
+  },
+  {
+    "n": 8,
+    "id": "2606.23444",
+    "url": "https://huggingface.co/papers/2606.23444",
+    "title": "SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors",
+    "date": "2026-06-23",
+    "source": "hf-search"
+  }
+]

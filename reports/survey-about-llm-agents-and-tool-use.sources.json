@@ -1,0 +1,64 @@
+[
+  {
+    "n": 1,
+    "id": "2402.01030",
+    "url": "https://huggingface.co/papers/2402.01030",
+    "title": "Executable Code Actions Elicit Better LLM Agents",
+    "date": "2024-02-01",
+    "source": "hf-daily"
+  },
+  {
+    "n": 2,
+    "id": "2407.20859",
+    "url": "https://huggingface.co/papers/2407.20859",
+    "title": "Analysing the Capabilities of Large Language Models in Domain Specific Applications",
+    "date": "2024-07-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "url": "https://www.nature.com/articles/s41598-025-98483-1",
+    "title": "Industrial applications of large language models",
+    "date": "2025-04-21",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2409.18807",
+    "url": "https://ar5iv.labs.arxiv.org/html/2409.18807",
+    "title": "LLM With Tools: A Survey",
+    "date": "2025-08-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "url": "https://link.springer.com/article/10.1007/s11831-026-10720-6",
+    "title": "The Versatility of Large Language Models: A Comprehensive Review and Structured Survey",
+    "date": "2026-08-11",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2606.02470",
+    "url": "https://huggingface.co/papers/2606.02470",
+    "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+    "date": "2026-06-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2503.21460",
+    "url": "https://huggingface.co/papers/2503.21460",
+    "title": "Large Language Model Agent: A Survey on Methodology, Applications and Challenges",
+    "date": "2024-05-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2607.12406",
+    "url": "https://huggingface.co/papers/2607.12406",
+    "title": "Isolation as a First-Class Principle for LLM-Agent System Safety: Concepts, Taxonomy, Challenges and Future Directions",
+    "date": "2027-02-13",
+    "source": "hf-search"
+  }
+]

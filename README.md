@@ -107,3 +107,55 @@ Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json
 - Mỗi lần chạy tốn token LLM và thời gian sandbox. `tokens` trong `meta.json` chỉ đếm tin nhắn của lead, chưa gồm subagent, nên chi phí thật cao hơn. `open_sandbox()` luôn dừng và xóa sandbox khi kết thúc, kể cả khi lỗi. Đừng bỏ qua nó.
 - **Không đưa bí mật vào sandbox.** Sandbox không ngăn được prompt injection hay việc đẩy dữ liệu ra mạng; một trang web độc hại có thể khiến agent chạy lệnh bên trong sandbox. Vì vậy mọi công cụ gọi mạng và mọi khóa ở lại phía host.
 - Nội dung lấy từ web là **dữ liệu không đáng tin**: agent không được làm theo chỉ dẫn nằm trong đó.
+
+## 8. Hướng dẫn chạy và giải thích cấu trúc `reports/`
+
+### 8.1. Cài đặt và cấu hình nhanh
+1. Khởi tạo môi trường ảo và cài đặt thư viện:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+2. Tạo file `.env` (chạy với local Docker):
+   ```bash
+   cp .env.example .env
+   ```
+   Cấu hình:
+   ```env
+   SANDBOX=docker
+   SANDBOX_IMAGE=python:3.12-slim
+   LAB_MODEL=openai:gpt-4o-mini
+   OPENAI_API_KEY=your_key_here
+   EXA_API_KEY=your_exa_key_here
+   ```
+
+### 8.2. Chạy nghiên cứu cho một chủ đề
+```bash
+python research.py "survey about world model"
+```
+
+### 8.3. Cách đọc kết quả trong thư mục `reports/`
+Mỗi chủ đề nghiên cứu sinh ra một bộ 3 tệp tin mang tính độc lập và kiểm chứng được:
+* **`<slug>.md`**: Báo cáo tổng quan học thuật hoàn chỉnh được viết theo chuẩn [`REPORT_TEMPLATE.md`](REPORT_TEMPLATE.md). Toàn bộ khẳng định trong thân bài mang trích dẫn `[n]`, và phần cuối `## References` liệt kê các nguồn tương ứng đã qua xác thực.
+* **`<slug>.sources.json`**: Danh sách tất cả các nguồn tài liệu đã được trích dẫn trong bài báo cáo, bao gồm ID, tiêu đề, ngày xuất bản, họ nguồn (`arxiv`, `hf-daily`, `hf-search`, `web`) và URL gốc trực tiếp tới bài báo.
+* **`<slug>.meta.json`**: Bằng chứng kỹ thuật phục vụ chấm điểm tự động:
+  * `topic`: Tên chủ đề nghiên cứu.
+  * `model`: Mô hình LLM đã sử dụng.
+  * `elapsed_s`: Thời gian thực thi hệ thống (giây).
+  * `subagent_calls`: Số lần Lead Agent ủy quyền cho các subagent (`task`).
+  * `tool_calls`: Thống kê số lượt gọi từng công cụ.
+  * `tokens`: Số token đầu vào và đầu ra của Lead Agent.
+  * `n_sources`: Tổng số nguồn tài liệu được đưa vào bài.
+  * `source_families`: Danh sách các họ nguồn đã được trích dẫn (đáp ứng tối thiểu $\ge 3$ họ).
+
+### 8.4. Tự kiểm tra toàn bộ trước khi nộp
+Chạy lệnh kiểm tra tự động toàn diện:
+```bash
+python self_check.py
+```
+Lệnh này xác minh:
+1. Đầy đủ 5 chủ đề nghiên cứu trong `topics.md` với đủ 3 file/chủ đề.
+2. Tiêu chí đa nguồn ($\ge 3$ họ nguồn) và số lần gọi subagent ($\ge 3$) của từng chủ đề.
+3. Độ tin cậy và tính nhất quán của toàn bộ trích dẫn qua `check_citations.py`.
+4. Không có file `.env` hay API key nào bị track trong git.

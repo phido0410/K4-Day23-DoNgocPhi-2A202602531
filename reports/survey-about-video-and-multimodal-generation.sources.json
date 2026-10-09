@@ -1,0 +1,106 @@
+[
+  {
+    "n": 1,
+    "id": "2409.14993",
+    "url": "https://arxiv.org/html/2409.14993v3",
+    "title": "Multi-modal Generative AI: Multi-modal LLMs, Diffusions, and the Unification",
+    "date": "2025-11-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2604.06339",
+    "url": "https://arxiv.org/html/2604.06339v1",
+    "title": "Evolution of Video Generative Foundations",
+    "date": "n/a",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "10462-026-11525-6",
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11525-6",
+    "title": "Generative AI for Multimodal Content",
+    "date": "2026-03-14",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2510.04999",
+    "url": "https://huggingface.co/papers/2510.04999",
+    "title": "Bridging Text and Video Generation: A Survey",
+    "date": "2025-10-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "1710.00421",
+    "url": "https://huggingface.co/papers/1710.00421",
+    "title": "Video Generation From Text",
+    "date": "2017-10-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "10462-026-11699-z",
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11699-z",
+    "title": "Toward Human-Centered and Efficient Video Synthesis",
+    "date": "2026-09-15",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2m4063sfkb3",
+    "url": "https://exa.ai/library/publication/2m4063sfkb3",
+    "title": "Survey of Video Diffusion Models: Foundations, Implementations, and Applications",
+    "date": "2025-04-22",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2605.02134",
+    "url": "https://huggingface.co/papers/2605.02134",
+    "title": "Video Generation with Predictive Latents",
+    "date": "2026-05-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "1804.08264",
+    "url": "https://huggingface.co/papers/1804.08264",
+    "title": "To Create What You Tell: Generating Videos from Captions",
+    "date": "2018-04-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2506.10016v3",
+    "url": "https://arxiv.org/abs/2506.10016v3",
+    "title": "A Survey of Generative Categories and Techniques in Multimodal Generative Models",
+    "date": "2025-05-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "3802588",
+    "url": "https://dl.acm.org/doi/10.1145/3802588",
+    "title": "Spatiotemporal Consistency in Video Generation",
+    "date": "2026-05-15",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2610.12458",
+    "url": "https://huggingface.co/papers/2610.12458",
+    "title": "OmniCapBench",
+    "date": "2026-10-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "kxffd25w5gn",
+    "url": "https://exa.ai/library/publication/kxffd25w5gn",
+    "title": "Any-to-Any Generation via Composable Diffusion (CoDi)",
+    "date": "n/a",
+    "source": "web"
+  }
+]
